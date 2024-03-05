@@ -1,4 +1,4 @@
-# micropython-spectrum-analyzer-demo
+# micropython-audio-spectrum-analyzer
 MicroPython audio spectrum analyzer for an I2S (INMP441) microphone and 8x8 (MAX7219) LED array
 
 Created because I wanted something sound-reactive like WLED, but for more platforms (such as the Raspberry Pi Pico and ESP32-C3), and based on MicroPython for ease of development. The code can handle around 30 "frames" a second on an RP2040 with moderate over-clocking, no threads required.
